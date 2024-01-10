@@ -1,0 +1,22 @@
+.calender{
+    max-width: 1120px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr); /* 7 ta soman vager column naoa hoise*/
+    grid-template-rows: 30px repeat(5,50px);/* 5 ta 50px ar row and first ar ta 30px ar row naoa hoise*/
+    row-gap: 20px;
+    column-gap: 20px;
+
+}
+
+
+.date ,.day{
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* vitorer item mane day name and date ke maje anar jonno upor theke ata babohar kora hoise*/
+    justify-content: center;/* date and tima ke side theke maje anar jonno babohar kora hoise*/
+}
+
+.day{
+    background-color: gray;
+}
